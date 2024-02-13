@@ -1,0 +1,62 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding-top: 55px; 
+  background-color: beige;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+
+main{
+  
+}
+
+.welcome-section{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.terms-section{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.privacy-section{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.premium-terms-section{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.screen-shot{
+  height: 300px;
+}
+
+.google-play-download{
+  height: 100px;
+}
+
+@media (max-width:500px) {
+body{
+  font-size: 0.75em;
+}
+
+  .screen-shot{
+    max-height: 200px;    
+  }
+
+  .google-play-download{
+    height:70px;
+  }
+
+}
+
+ 

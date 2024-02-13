@@ -1,0 +1,134 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(25, 28, 59);
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+}
+.logo-hold{
+width: 150px;
+}
+
+
+.sd-logo{
+  height: 30px;
+  padding-left: 40px;
+}
+
+.mid-space{
+  flex:1;
+  max-width: 500px;
+}
+.page-sections{
+  width:600px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  color: white;
+  font-size: 14px;
+  align-items: center;
+  padding-right: 40px;
+  cursor:pointer
+}
+
+.header-link1{
+display: flex;
+align-items: center;
+text-align: center;
+border: 5px;
+height:50px;
+border-bottom: 5px solid rgb(25, 28, 59);
+}
+
+.header-link1:hover{
+border-bottom: 5px solid rgb(255, 216,78);
+}
+
+.header-link2{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 5px;
+  height:50px;
+  border-bottom: 5px solid rgb(25, 28, 59);
+  }
+  
+  .header-link2:hover{
+  border-bottom: 5px solid rgb(255, 216,78);
+  }
+
+  .header-link3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 5px;
+    height:50px;
+    border-bottom: 5px solid rgb(25, 28, 59);
+    }
+    
+    .header-link3:hover{
+    border-bottom: 5px solid rgb(255, 216,78);
+    }
+
+    .download-link{
+      
+      }
+    button{
+      background-color: rgb(255, 216,78);
+      color:  rgb(25, 28, 59);
+      border: none;
+      height: 35px;
+      width: 180px;
+      border-radius: 90px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15px;
+    }
+
+    button:hover{
+      background-color: rgb(0, 255, 125);
+    }
+
+    .footer{
+    margin-top: 45px;
+    background-color: rgb(25, 28, 59);
+    height: 50px;
+    }
+
+    .hamburger-menu{
+      align-items: left;
+      padding-left: 40px;
+
+    }
+
+    .hamburger-icon{
+      height: 20px;
+    }
+
+      
+
+    @media (max-width:950px) {
+      .page-sections{
+        display: none;
+      }
+    }
+    @media (min-width:950px){
+      .hamburger-menu{
+        display: none;
+      }
+    }
+    
+    @media (max-width:500px) {
+      .page-sections{
+        display: none;
+    
+      }
+
+    .sd-logo{
+      height:25px
+    }
+  }
